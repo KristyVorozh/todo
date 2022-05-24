@@ -14,7 +14,7 @@ class ToDoStore {
         let lo1: toDoArrayType = {
             id: this.tasksArray.length !== 0 ? this.tasksArray.length + 1 : 1,
             title: this.titleTask,
-            isActive: true,
+            isActive: false,
             category: 'all' && 'active',
         }
         if (this.titleTask !== '') this.tasksArray.push(lo1)
