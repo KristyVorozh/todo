@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap')
+
+body
+  background: #EA5959
+  box-sizing: border-box
+  margin: 0px
+  font-family: 'Lato', sans-serif
+.main
+  background: white
+  border-radius: 12px
+  display: flex
+  justify-content: space-between
+  margin: 15% 15%
+  padding: 20px
+.main_todo-input
+  display: flex
+  flex-direction: column
+  input
+    width: 45vw
+    padding: 12px
+    border: none
+    background: rgba(134, 134, 134, 0.18)
+    border-radius: 12px
+    outline: none
+    transition: all .5s
+    &:hover
+      border: 2px solid #9b9b9b
+.main_todo-button
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-top: 20px
+  margin-bottom: 20px
+  button
+    border: none
+    outline: none
+    padding: 10px 20px
+    cursor: pointer
+    border-radius: 12px
+    margin-right: 10px
+    transition: all .5s
+    &:hover
+      border: 2px solid #9b9b9b
+.main_todo-list-content
+  display: flex
+  align-items: center
+  &:hover
+    img
+      opacity: 1
+  p
+    padding: 0px 10px
+  input
+    width: 15px
+  img
+    width: 15px
+    transition: all .5s
+    opacity: 0
+    cursor: pointer
+.main_category
+  p
+    cursor: pointer
+.checked
+  text-decoration: line-through
+
